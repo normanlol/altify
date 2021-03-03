@@ -1,0 +1,87 @@
+body {
+    margin:0;
+    font-family:Helvetica;
+    background:#0f0e17;
+    color:#a7a9be;
+}
+
+.center {
+    text-align:center;
+}
+
+.noMargin {
+    margin:0;
+}
+
+.logo {
+    color:#fffffe;
+    margin-bottom:0;
+    font-size:48px;
+    cursor:pointer;
+}
+
+#email {
+    background:#453f75;
+    color:white;
+    width:300px;
+    height:30px;
+    text-align:center;
+    border:0;
+    border-radius:4px;
+    outline:none;
+    cursor:pointer;
+    margin-bottom:10px;
+}
+
+.email {
+    background:#ff8906;
+    color:black;
+    height:50px;
+    text-align:center;
+    width:90%;
+    margin-left:5%;
+    margin-bottom:5px;
+    border-radius:4px;
+}
+
+.email .clickable {
+    width:85%;
+    height:100%;
+    float:left;
+    cursor:pointer;
+}
+
+.email .secondary {
+    width:15%;
+    float:left;
+    height:calc(100% - 28px);
+    padding-top:14px;
+    padding-bottom:14px;
+}
+
+.email .secondary * {
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.email .secondary button, .email .secondary a {
+    cursor:pointer;
+}
+
+.email h2, .email h3 {
+    float:left;
+    text-align:left;
+    margin-bottom:0;
+    overflow:hidden;
+}
+
+.email h2 {
+    margin-top:10px;
+    margin-left:10px;
+    width:20%;
+}
+
+.email h3 {
+    margin-top:14px;
+    width:75%;
+}

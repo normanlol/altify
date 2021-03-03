@@ -1,0 +1,27 @@
+{
+  "name": "altify",
+  "version": "1.0.0",
+  "description": "generate alt account emails and passwords on the fly",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/normanlol/altify.git"
+  },
+  "keywords": [
+    "alt",
+    "alt-account"
+  ],
+  "author": "normanlol",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/normanlol/altify/issues"
+  },
+  "homepage": "https://github.com/normanlol/altify#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "gmailnator": "^1.1.7"
+  }
+}

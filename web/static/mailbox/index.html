@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Mailbox - Altify</title>
+        <link href="/css/main.css" rel="stylesheet">
+        <meta charset="UTF-8">
+    </head>
+    <body onhashchange="window.location.reload();">
+        <div style="margin-bottom:2%;" class="center">
+            <h1 class="logo" onclick="window.open('/', '_self')">Altify.</h1>
+            <noscript>Javascript must be enabled for this app.</noscript>
+        </div>
+        <div id="mailbox" style="display:none;" class="center">
+            <input id="email" disabled><button style="margin-left:5px;height:31px;border:0;border-radius:4px;"onclick="copy(document.getElementById('email').value)">copy</button>
+            <div id="noMail" style="display:none;">
+                <p>No mail currently. This is checked every 15 seconds.</p>
+            </div>
+            <div id="emailList" style="display:none;"></div>
+            <div id="loading">
+                <p>Loading...</p>
+            </div>
+        </div>
+        <script src="/js/mailbox.js"></script>
+        <script src="/js/global.js"></script>
+    </body>
+</html>

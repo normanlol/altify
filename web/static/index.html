@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Altify</title>
+        <link href="/css/main.css" rel="stylesheet">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div style="margin-bottom:2%;" class="center">
+            <h1 class="logo" onclick="window.open('/', '_self')">Altify.</h1>
+            <p class="noMargin">Create hard-to-detect alt accounts on the fly for any service that supports Gmail.</p>
+            <noscript>Javascript must be enabled for this app.</noscript>
+        </div>
+        <div id="gen" style="display:none;" class="center">
+            <input id="email" disabled="" autocomplete="off" placeholder="Loading email..."><br>
+            <p id="copied" style="display:none;">Copied!</p>
+            <button onclick="openMail(document.getElementById('email').value);">Open Mailbox</button>
+            <button onclick="copy(document.getElementById('email').value)">Copy</button>
+            <button onclick="load()">Regenerate</button>
+        </div>
+        <script src="/js/home.js"></script>
+        <script src="/js/global.js"></script>
+    </body>
+</html>
