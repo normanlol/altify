@@ -4,9 +4,10 @@ const gmailnator = require("gmailnator");
 const cheerio = require("cheerio");
 const utils = require("./utils");
 const { parse } = require("url");
-const { randomBytes, randomInt } = require("crypto");
+const port = process.env.PORT || 2345
 
-http.createServer(requestListener).listen(2345);
+http.createServer(requestListener).listen(port);
+console.log("listening on port " + port)
 
 function requestListener(request, response) {
     var url = parse(request.url, true);
